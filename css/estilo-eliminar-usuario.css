@@ -1,0 +1,20 @@
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mensaje {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: fantasy;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+}
+.mensaje .error {
+    color: crimson;
+}
+.mensaje .ok {
+    color: green;
+}
